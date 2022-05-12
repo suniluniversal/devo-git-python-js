@@ -1,0 +1,33 @@
+<html>
+   <head>
+        <title>Highcharts Tutorial</title>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script> 
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <link rel="stylesheet" href="web/css/line.css">
+        <link rel="stylesheet" href="web/css/pie.css">
+    </head>
+   
+    <body>     
+        <script src="web/javascript/getData.js"></script>
+        <script src="web/javascript/parseData.js"></script>
+        <figure class="highcharts-figure">
+            <p class="highcharts-description">
+                Line Chart showing category over time.
+            </p>
+            <div id="lineContainer"></div>
+            <script src="web/javascript/line.js"></script>
+        </figure>
+        <figure class="highcharts-figure">
+            <p class="highcharts-description">
+                Pie chart showing category percentage.
+            </p>
+            <div id="pieContainer"></div>
+            <script src="web/javascript/pie.js"></script>
+        </figure>
+    </body>
+   
+</html>
